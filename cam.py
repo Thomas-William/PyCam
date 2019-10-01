@@ -39,7 +39,6 @@ while True:
         cap.write(frame);
     else:
         print("Not recording!");
-        print("-----")
 
     # Any key to leave.
     key = cv2.waitKey(1);
