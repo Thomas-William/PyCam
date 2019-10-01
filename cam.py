@@ -39,6 +39,7 @@ while True:
         cap.write(frame);
     else:
         print("Not recording!");
+        print("-----")
 
     # Any key to leave.
     key = cv2.waitKey(1);
@@ -50,6 +51,7 @@ while True:
         captureStarted = not captureStarted;
 
 print("Total frames: " + str(a));
+print("----")
 # Stop the camera
 video.release();
 if cap != None:
